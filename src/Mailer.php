@@ -45,7 +45,7 @@ class Mailer extends BaseMailer
      * If enabled [[Logger]] plugin will be attached to the [[transport]] for this purpose.
      * @see Logger
      */
-    public bool $enableMailerLogging = false;
+    public $enableMailerLogging = false;
     /**
      * Creates Symfony mailer instance.
      * @return SymfonyMailer mailer instance.
