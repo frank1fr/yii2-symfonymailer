@@ -27,13 +27,13 @@ class Mailer extends BaseMailer
      */
     public $messageClass = Message::class;
 
-    private ?SymfonyMailer $symfonyMailer = null;
-    private ?SMimeEncrypter $encryptor = null;
+    private $symfonyMailer = null;
+    private $encryptor = null;
     /**
      * @var DkimSigner|SMimeSigner|null
      */
     private $signer = null;
-    private array $dkimSignerOptions = [];
+    private $dkimSignerOptions = [];
     /**
      * @var TransportInterface|array Symfony transport instance or its array configuration.
      */

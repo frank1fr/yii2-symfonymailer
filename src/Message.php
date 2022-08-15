@@ -17,12 +17,12 @@ use yii\mail\BaseMessage;
 
 class Message extends BaseMessage
 {
-    private Email $email;
-    private string $charset = 'utf-8';
+    private $email;
+    private $charset = 'utf-8';
     public function __construct($config = [])
     {
         $this->email = new Email();
-        parent::__construct($config);        
+        parent::__construct($config);
     }
 
     public function __clone()
