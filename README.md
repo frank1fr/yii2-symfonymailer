@@ -1,6 +1,9 @@
 Installation
 ------------
 
+Version: 1.0.1
+
+
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
 Either run:
