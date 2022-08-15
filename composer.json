@@ -1,29 +1,8 @@
 {
-    "name": "yiisoft/yii2-symfonymailer",
-    "description": "The SymfonyMailer integration for the Yii framework",
-    "keywords": [
-        "yii2",
-        "symfony",
-        "symfonymailer",
-        "mail",
-        "email",
-        "mailer"
-    ],
+    "name": "frank/symfonymailer-for-yii2",
+    "description": "Symfonymailer for Yii2",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2-symfonymailer/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2-symfonymailer"
-    },
-    "authors": [
-        {
-            "name": "Kirill Petrov",
-            "email": "archibeardrinker@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=7.3.19",
         "yiisoft/yii2": ">=2.0.4",
